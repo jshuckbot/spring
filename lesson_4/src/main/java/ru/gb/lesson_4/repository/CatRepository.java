@@ -13,5 +13,4 @@ import java.util.List;
 @Repository
 public class CatRepository {
     private List<Cat> cats = new ArrayList<>();
-
 }
