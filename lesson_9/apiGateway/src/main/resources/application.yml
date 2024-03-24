@@ -1,0 +1,18 @@
+server:
+  port: 9000
+
+
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    gateway:
+      routes:
+        - id: tasks-server
+          uri: http://localhost:8888/
+          predicates:
+            - Path=/tasks/**
+        - id: notes-server
+          uri: http://localhost:8889/
+          predicates:
+            - Path=/notes/**
