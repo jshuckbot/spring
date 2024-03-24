@@ -94,4 +94,4 @@ NOT_STARTED, IN_PROGRESS, COMPLETED;
 
 ## Урок 9. Spring Cloud. Микросервисная архитектура
 
-Добавить в один из Ваших проектов сделанных ранее ApiGateWay и Eureka. В проекте обязательно должна быть Spring Data
+Добавить в один из Ваших проектов сделанных ранее ApiGateWay и Eureka. В проекте обязательно должна быть Spring Data. [Решение](lesson_9)
