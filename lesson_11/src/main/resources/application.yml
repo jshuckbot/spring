@@ -1,0 +1,9 @@
+spring:
+    application:
+        name: lesson_6
+management:
+  endpoints:
+    web:
+      exposure:
+          include: metrics, prometheus
+    
